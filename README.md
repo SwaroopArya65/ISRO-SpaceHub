@@ -1,20 +1,20 @@
-<h1>What is CosmoLearn ?</h1>
-<p>CosmoLearn is an online platform that makes learning about space science and technology engaging and interactive. 
+<h1>What is SpaceHub ?</h1>
+<p>SpaceHub is an online platform that makes learning about space science and technology engaging and interactive. 
   It's designed to educate and inspire students, entrepreneurs, and startups by offering a wide range of resources and 
   captivating content related to the universe. Through interactive modules, comprehensive materials, and up-to-date information, 
-  CosmoLearn aims to bridge the gap between theoretical knowledge and practical application in the field of space science. 
+  SpaceHub aims to bridge the gap between theoretical knowledge and practical application in the field of space science. 
   This approach aligns with initiatives like NASA's educational programs, which provide free web-based games and interactive 
   experiences to make space science accessible and enjoyable.
 </p>
 <h1>Project Overview ?</h1>
-<p>CosmoLearn serves as a centralized hub for individuals passionate about space exploration and its associated technologies. 
+<p>SpaceHub serves as a centralized hub for individuals passionate about space exploration and its associated technologies. 
   The platform offers a variety of educational materials, interactive modules, and up-to-date information on space missions and research. 
-  By fostering a community of learners and innovators, CosmoLearn seeks to bridge the gap between theoretical knowledge and practical application in the field of space science.
+  By fostering a community of learners and innovators, SpaceHub seeks to bridge the gap between theoretical knowledge and practical application in the field of space science.
 </p>
 <h1>Why this project is relevance to ISRO</h1>
 <p>The Indian Space Research Organisation (ISRO) has been instrumental in advancing space technology and research in India. 
   Through initiatives like the IIRS Outreach Programme, ISRO focuses on strengthening academia and user segments in space 
-  technology and its applications using online learning platforms. CosmoLearn aligns with ISRO's mission by:
+  technology and its applications using online learning platforms. SpaceHub aligns with ISRO's mission by:
 </p>
 <ul>
   <li>
