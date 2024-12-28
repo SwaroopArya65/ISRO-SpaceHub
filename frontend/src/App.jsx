@@ -6,7 +6,7 @@ import MobMenu from "./components/MobMenu";
 function App() {
   return (
     <div>
-      <header className="h-16 text-[15px] fixed inset-0 flex-center bg-[#18181A] ">
+      <header className="h-16 text-[15px] fixed inset-0 flex-center bg-[#c0c0fb] ">
         <nav className=" px-3.5 flex-center-between w-full max-w-7xl mx-auto">
           <div className="flex-center gap-x-3 z-[999] relative">
             <img src={Logo} alt="" className="size-14" />
@@ -24,12 +24,6 @@ function App() {
               className="bg-white/5 z-[999] relative px-3 py-1.5 shadow rounded-xl flex-center"
             >
               Sign In
-            </button>
-            <button
-              aria-label="sign-in"
-              className="bg-white/5 z-[999] relative px-3 py-1.5 shadow rounded-xl flex-center"
-            >
-              Register
             </button>
             <div className="lg:hidden">
               <MobMenu Menus={Menus} />

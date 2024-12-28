@@ -20,7 +20,7 @@ import { PanelTop } from "lucide-react";
 
 export const Menus = [
   {
-    name: "Features",
+    name: "Home",
     subMenuHeading: ["Design", "Scale"],
     subMenu: [
       {
@@ -51,64 +51,95 @@ export const Menus = [
     subMenuHeading: ["Get started", "Programs", "Recent"],
     subMenu: [
       {
-        name: "Markplace",
-        desc: "Browse templates",
+        name: "Beginner's Guides",
+        desc: "Materials on SST",
         icon: ShoppingBag,
       },
       {
-        name: "Meetups",
-        desc: "Upcoming events",
+        name: "Educational Courses",
+        desc: "Learning Path",
         icon: MapPin,
       },
       {
-        name: "Updates",
-        desc: "Changelog",
+        name: "Latest Articles",
+        desc: "Recent Articles",
         icon: BellDot,
       },
       {
-        name: "Academy",
-        desc: "Watch lessions",
+        name: "Clavis of Terms",
+        desc: "Definitions of terms",
         icon: Play,
       },
       {
-        name: "Blog",
-        desc: "Posts",
+        name: "Workshops & Seminars",
+        desc: "upcoming & past events",
         icon: BookOpenText,
       },
       {
-        name: "Figma",
-        desc: "Plugin",
+        name: "Recent Discoveries",
+        desc: "Space Discoveries",
         icon: Figma,
       },
       {
-        name: "Experts",
-        desc: "Jobs",
+        name: "Foundational Articles",
+        desc: "Core Texts",
         icon: BriefcaseBusiness,
       },
       {
-        name: "Gallery",
-        desc: "Images",
+        name: "Research Initiatives",
+        desc: "Research Portfolio",
+        icon: Images,
+      },
+      {
+        name: "Newsletters",
+        desc: "Events & Advancements",
         icon: Images,
       },
     ],
     gridCols: 3,
   },
   {
-    name: "Support",
+    name: "Courses",
     subMenu: [
       {
-        name: "Help",
+        name: "Beginner Courses",
         desc: "Center",
         icon: CircleHelp,
       },
       {
-        name: "Community",
+        name: "Intermediate Courses",
         desc: "Project help",
         icon: MessageCircle,
       },
       {
-        name: "Emergency",
+        name: "Advanced",
+        desc: "Urgent issues Courses",
+        icon: TriangleAlert,
+      },
+      {
+        name: "Certifications",
         desc: "Urgent issues",
+        icon: TriangleAlert,
+      },
+    ],
+    gridCols: 1,
+  },
+  {
+    name: "Support",
+    subMenu: [
+      {
+        name: "Contact Us",
+        desc: "Center",
+        icon: CircleHelp,
+      },
+      {
+        name: "Partnerships",
+        desc: "Project help",
+        icon: MessageCircle,
+      },
+      {
+        name: "Feedback",
+        desc: "Urgent issues Courses",
         icon: TriangleAlert,
       },
     ],
@@ -140,11 +171,5 @@ export const Menus = [
       },
     ],
     gridCols: 2,
-  },
-  {
-    name: "Pricing",
-  },
-  {
-    name: "Contact",
   },
 ];
