@@ -24,23 +24,23 @@ export const Menus = [
     subMenuHeading: ["Design", "Scale"],
     subMenu: [
       {
-        name: "Design",
-        desc: "Responsive design",
+        name: "Why SpaceHub",
+        desc: "What Provide",
         icon: PanelsTopLeft,
       },
+      // {
+      //   name: "Upadate & Announcements",
+      //   desc: "Quick Information",
+      //   icon: Bolt,
+      // },
+      // {
+      //   name: "Navigation",
+      //   desc: "Link pages",
+      //   icon: PanelTop,
+      // },
       {
-        name: "Management",
-        desc: "Site control",
-        icon: Bolt,
-      },
-      {
-        name: "Navigation",
-        desc: "Link pages",
-        icon: PanelTop,
-      },
-      {
-        name: "CMS",
-        desc: "Management content",
+        name: "Quick News",
+        desc: "Event & Programs",
         icon: Database,
       },
     ],
@@ -146,29 +146,29 @@ export const Menus = [
     gridCols: 1,
   },
   {
-    name: "Enterprise",
-    subMenuHeading: ["Overview", "Features"],
+    name: "About Us",
+    subMenuHeading: ["Overview", "For Developers"],
     subMenu: [
       {
-        name: "Enterprise",
-        desc: "Overview",
+        name: "Mission and Vision",
+        desc: "About Comapny",
         icon: ShieldPlus,
       },
       {
-        name: "Collaboration",
-        desc: "Design together",
+        name: "Teams",
+        desc: "Work Cultures",
         icon: Users,
       },
       {
-        name: "Customers",
-        desc: "Stories",
+        name: "Partners & Collaborators",
+        desc: "Persion with Us",
         icon: Dessert,
       },
-      {
-        name: "Security",
-        desc: "Your site secured",
-        icon: Lock,
-      },
+      // {
+      //   name: "Security",
+      //   desc: "Your site secured",
+      //   icon: Lock,
+      // },
     ],
     gridCols: 2,
   },
