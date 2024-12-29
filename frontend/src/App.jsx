@@ -2,6 +2,7 @@ import { Menus } from "./utils";
 import Logo from "./assets/logo.png";
 import DesktopMenu from "./components/DesktopMenu";
 import MobMenu from "./components/MobMenu";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </div>
         </nav>
       </header>
+      <div>
+        <Hero />
+      </div>
     </div>
   )
 }
