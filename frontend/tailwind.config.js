@@ -7,7 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+        publicSans: ["Public Sans", "serif"],
+      },
+      fontWeight: {
+        'extra-bold': '800',
+      },
+      maxWidth: {
+        customeweight: '680px',
       },
     },
     screens: {

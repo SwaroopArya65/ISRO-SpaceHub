@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
     return (
@@ -8,8 +9,8 @@ const Navbar = () => {
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <img
-                            className="h-8 w-auto"
-                            src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                            className="h-10 w-auto"
+                            src={logo}
                             alt="Company Logo"
                         />
                     </a>
@@ -37,14 +38,14 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    {['Product', 'Features', 'Marketplace', 'Company'].map((item) => (
-                        <a key={item} href="#" className="text-sm font-semibold text-gray-900">
+                    {['Home', 'Courses', 'Resources', 'All News', 'Support'].map((item) => (
+                        <a key={item} href="#" className="text-lg tracking-wide font-publicSans text-gray-900">
                             {item}
                         </a>
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" className="text-sm font-semibold text-gray-900">
+                    <a href="#" className="text-lg tracking-wide font-publicSans text-gray-900">
                         Log in <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
