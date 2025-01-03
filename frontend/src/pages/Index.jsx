@@ -1,6 +1,7 @@
 import React from 'react';
 import GradientBg from '../components/GradientBg';
 import Navbar from '../components/Navbar';
+import InfoBanner from './../components/InfoBanner';
 
 const Index = () => {
     return (
@@ -22,23 +23,26 @@ const Index = () => {
                         <h1 className="text-5xl font-playfair tracking-wide text-gray-900 sm:text-7xl">
                             SpaceHub: Inspiring the Next Generation of Space Innovators
                         </h1>
-                        <p className="mt-8 text-lg font-publicSans font-boldweight text-gray-500 sm:text-xl">
+                        <p className="mt-8 text-lg font-publicSans tracking-wide font-boldweight text-gray-500 sm:text-xl">
                             Empowering students and entrepreneurs with interactive courses, simulations, resources, forums, and guidance to excel in space science and technology.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
-                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-lg font-publicSans tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                className="rounded-md bg-bg px-3.5 py-2.5 text-lg font-publicSans tracking-wider text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                                 Get current news
                             </a>
-                            <a href="#" className="text-lg font-publicSans tracking-wider text-gray-900">
-                                About us<span aria-hidden="true">→</span>
+                            <a href="#" className="text-lg font-publicSans tracking-wider text-bg">
+                                About us<span aria-hidden="true">&nbsp; →</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <GradientBg position="top-[calc(100%-13rem)] sm:top-[calc(100%-30rem)]" />
+                <div>
+                    <InfoBanner />
+                </div>
             </div>
         </div>
     );

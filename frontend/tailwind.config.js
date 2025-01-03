@@ -16,6 +16,9 @@ export default {
       maxWidth: {
         customeweight: '680px',
       },
+      colors: {
+        'bg': '#4509ae',
+      }
     },
     screens: {
       // => @media (max-width: 1279px) { ... }

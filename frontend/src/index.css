@@ -4,3 +4,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In your global CSS file (e.g., styles.css) */
+.scrollbar-custom::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: #c9c9c9;
+  }
