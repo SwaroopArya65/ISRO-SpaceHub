@@ -7,7 +7,7 @@ const InfoBanner = () => {
     return (
         <div className="grid grid-cols-3 gap-4">
             <GradientBg />
-            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r via-stone-400 to-blue-50 border-b-4 border-stone-300 p-6 rounded-lg">
+            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r bg-zinc-50 border-b-4 border-stone-300 p-6 rounded-lg">
                 <h2 className="text-gray-900 text-2xl font-playfair tracking-wider font-bold mb-4">ISRO Vacancy</h2>
                 <Link to="/" className="flex items-center text-gray-500  hover:font-bold font-publicSans tracking-wide mb-1">
                     <TbCircleDotFilled className='mr-2' />
@@ -24,7 +24,7 @@ const InfoBanner = () => {
 
             </div>
 
-            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r via-stone-400 to-blue-50 border-b-4 border-stone-300 p-6 rounded-lg">
+            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r bg-zinc-50 border-b-4 border-stone-300 p-6 rounded-lg">
                 <h2 className="text-gray-900 text-2xl font-playfair tracking-wider font-bold mb-4">Exam Output</h2>
                 <Link to="/" className=" flex items-center text-gray-500 hover:font-bold">
                     <TbCircleDotFilled className='mr-2' />
@@ -40,7 +40,7 @@ const InfoBanner = () => {
                 </Link>
             </div>
 
-            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r via-stone-400 to-blue-50 border-b-4 border-stone-300 p-6 rounded-lg">
+            <div className="h-80 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r bg-zinc-50 border-b-4 border-stone-300 p-6 rounded-lg">
                 <h2 className="text-gray-900 text-2xl font-playfair tracking-wider font-bold mb-4">Achievement</h2>
                 <Link to="/" className=" flex items-center text-gray-500 hover:font-bold">
                     <TbCircleDotFilled className='mr-2' />
@@ -56,7 +56,7 @@ const InfoBanner = () => {
                 </Link>
             </div>
 
-            <div className="h-72 overflow-y-scroll scrollbar-custom scroll-smooth col-span-2 bg-gradient-to-r via-stone-400 to-blue-50 border-b-4 border-stone-300 p-6 rounded-lg">
+            <div className="h-72 overflow-y-scroll scrollbar-custom scroll-smooth col-span-2 bg-gradient-to-r bg-zinc-50 border-b-4 border-stone-300 p-6 rounded-lg">
                 <h2 className="text-gray-900 text-2xl font-playfair tracking-wider font-bold mb-4">Recents Program, & Events</h2>
                 <Link to="/" className="flex items-center text-gray-500 hover:font-bold mb-1 font-publicSans tracking-wide">
                     <TbCircleDotFilled className='mr-2' />
@@ -76,7 +76,7 @@ const InfoBanner = () => {
                 </Link>
             </div>
 
-            <div className="h-72 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r via-stone-400 to-blue-50 border-b-4 border-stone-300 p-6 rounded-lg">
+            <div className="h-72 overflow-y-scroll scrollbar-custom scroll-smooth bg-gradient-to-r bg-zinc-50 border-b-4 border-stone-300 p-6 rounded-lg">
                 <h2 className="text-gray-900 text-2xl font-playfair tracking-wider font-bold mb-4">ALL Resources</h2>
                 <Link to="/" className="flex items-center text-gray-500 hover:font-bold mb-1 font-publicSans tracking-wide">
                     <TbCircleDotFilled className='mr-2' />
