@@ -2,12 +2,13 @@ import React from 'react';
 import GradientBg from '../components/GradientBg';
 import Navbar from '../components/Navbar';
 import InfoBanner from './../components/InfoBanner';
+import UserDepartment from '../components/UserDepartment';
 
 const Index = () => {
     return (
         <div className="relative bg-white">
             <Navbar />
-            <div className="relative isolate px-6 pt-14 lg:px-8">
+            <div className="relative isolate px-6 pt-14 lg:px-40">
                 <GradientBg position="-top-40 sm:-top-80" />
                 <div className="mx-auto max-w-customeweight py-32 sm:py-48 lg:py-56">
                     <div className="sm:mb-8 sm:flex sm:justify-center mb-6">
@@ -42,6 +43,9 @@ const Index = () => {
                 <GradientBg position="top-[calc(100%-13rem)] sm:top-[calc(100%-30rem)]" />
                 <div>
                     <InfoBanner />
+                </div>
+                <div>
+                    <UserDepartment />
                 </div>
             </div>
         </div>
