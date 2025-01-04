@@ -3,6 +3,7 @@ import GradientBg from '../components/GradientBg';
 import Navbar from '../components/Navbar';
 import InfoBanner from './../components/InfoBanner';
 import UserDepartment from '../components/UserDepartment';
+import ContactUs from '../components/ContactUs';
 
 const Index = () => {
     return (
@@ -47,6 +48,9 @@ const Index = () => {
                 <div>
                     <UserDepartment />
                 </div>
+            </div>
+            <div>
+                <ContactUs />
             </div>
         </div>
     );
