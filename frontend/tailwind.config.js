@@ -18,7 +18,10 @@ export default {
       },
       colors: {
         'bg': '#4509ae',
-      }
+      },
+      height: {
+        'h-100': '500px'
+      },
     },
     screens: {
       // => @media (max-width: 1279px) { ... }
