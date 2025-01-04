@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import InfoBanner from './../components/InfoBanner';
 import UserDepartment from '../components/UserDepartment';
 import ContactUs from '../components/ContactUs';
+import OrganizerBoard from '../components/OrganizerBoard';
 
 const Index = () => {
     return (
@@ -47,6 +48,9 @@ const Index = () => {
                 </div>
                 <div>
                     <UserDepartment />
+                </div>
+                <div>
+                    <OrganizerBoard />
                 </div>
             </div>
             <div>
