@@ -49,12 +49,12 @@ const Index = () => {
                 <div>
                     <UserDepartment />
                 </div>
-                <div>
-                    <OrganizerBoard />
-                </div>
             </div>
             <div>
                 <ContactUs />
+            </div>
+            <div>
+                <OrganizerBoard />
             </div>
         </div>
     );
