@@ -20,7 +20,7 @@ export default {
         'bg': '#4509ae',
       },
       height: {
-        'h-100': '500px'
+        'h-100': '400px'
       },
     },
     screens: {

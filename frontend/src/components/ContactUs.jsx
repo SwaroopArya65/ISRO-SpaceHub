@@ -8,7 +8,7 @@ import contact from '../assets/s1.jpg';
 const ContactUs = () => {
     return (
         // relative isolate px-6 pt-14 pb-14 lg:px-40 bg-zinc-50
-        <div className="relative isolate px-6 pt-14 pb-14 lg:px-40 aspect-square bg-[url('./assets/1.png')] bg-no-repeat bg-contain group h-h-100 w-full">
+        <div className="relative isolate px-6 pt-14 pb-10 lg:px-40 aspect-square bg-[url('./assets/1.png')] bg-no-repeat bg-contain group h-[400px] w-full">
             <GradientBg position="top-[calc(100%-13rem)] sm:top-[calc(100%-40rem)]" />
             <div className='flex items-center justify-between'>
                 <div>
