@@ -2,12 +2,10 @@ import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
 
 // Import new images
-import s1 from '../assets/s1.jpg'; // Replace with actual file paths
-import s2 from '../assets/s2.jpg';
-import s3 from '../assets/s3.jpg';
-import sc1 from '../assets/sc1.jpg';
-import sc2 from '../assets/sc2.jpg';
-import sc3 from '../assets/sc3.jpg';
+// Replace with actual file paths
+import s3 from '../assets/images.jpeg';
+import s4 from '../assets/chairman.png.webp';
+import s5 from '../assets/dr.k-radhakri.jpg.webp';
 
 
 const OrganizerBoard = () => {
@@ -21,10 +19,10 @@ const OrganizerBoard = () => {
                     </h4> */}
                     <div className='grid grid-cols-4 gap-x-1'>
                         {[
-                            { title: "Chairman, ISRO", description: "Dr. S. Somanath", image: s1 },
-                            { title: "Secretary DOS", description: "Dr. S. Somanath", image: s2 },
+                            { title: "Chairman, ISRO", description: "Dr. S. Somanath", image: s4 },
+                            { title: "Secretary DOS", description: "Dr. S. Somanath", image: s4 },
                             { title: "Dr. Shailesh Nayak", description: "Interim Chief", image: s3 },
-                            { title: "Dr. K. Radhakrishnan ", description: "Lead GSLV", image: s3 },
+                            { title: "Dr. K. Radhakrishnan ", description: "Lead GSLV", image: s5 },
                         ].map((item, index) => (
                             <div
                                 key={index}
