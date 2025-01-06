@@ -57,7 +57,7 @@ const Index = () => {
             <div>
                 <OrganizerBoard />
             </div>
-            <div>
+            <div className='mb-10'>
                 <AboutUs />
             </div>
         </div>
