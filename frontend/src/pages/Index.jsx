@@ -5,6 +5,7 @@ import InfoBanner from './../components/InfoBanner';
 import UserDepartment from '../components/UserDepartment';
 import ContactUs from '../components/ContactUs';
 import OrganizerBoard from '../components/OrganizerBoard';
+import AboutUs from './../components/AboutUs';
 
 const Index = () => {
     return (
@@ -55,6 +56,9 @@ const Index = () => {
             </div>
             <div>
                 <OrganizerBoard />
+            </div>
+            <div>
+                <AboutUs />
             </div>
         </div>
     );
