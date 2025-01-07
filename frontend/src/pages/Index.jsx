@@ -6,6 +6,7 @@ import UserDepartment from '../components/UserDepartment';
 import ContactUs from '../components/ContactUs';
 import OrganizerBoard from '../components/OrganizerBoard';
 import AboutUs from './../components/AboutUs';
+import Footer from '../components/Footer';
 
 const Index = () => {
     return (
@@ -59,6 +60,9 @@ const Index = () => {
             </div>
             <div className='mb-10'>
                 <AboutUs />
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );
