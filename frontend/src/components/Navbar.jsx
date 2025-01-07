@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -45,9 +46,9 @@ const Navbar = () => {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/login" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
                         Log in <span aria-hidden="true">&rarr;</span>
-                    </a>
+                    </Link>
                 </div>
             </nav>
         </header>
