@@ -14,11 +14,11 @@ const Registration = () => {
             </div>
             <div className='h-screen flex justify-center items-center'>
                 <div class="text-center sm:flex items-center justify-between border-gray-400 mx-[10%] mt-12 py-6">
-                    <p>CopyRight Recived 2025 by SpaceHub. All rights reserved.</p>
+                    <p className='font-publicSans text-text-color tracking-wide'>CopyRight Recived 2025 by SpaceHub. All rights reserved.</p>
                     <ul class="flex items-center gap-5 justify-center mt-4 sm:mt-0">
-                        <li><a href="https://github.com/SwaroopArya65">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/arya-swaroop-0a313b1b2">LinkedIn</a></li>
-                        <li><a href="#">Quick Link</a></li>
+                        <li><a href="https://github.com/SwaroopArya65" className='font-publicSans text-text-color tracking-wide'>GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/arya-swaroop-0a313b1b2" className='font-publicSans text-text-color tracking-wide'>LinkedIn</a></li>
+                        <li><a href="#" className='font-publicSans text-text-color tracking-wide'>Quick Link</a></li>
                     </ul>
                 </div>
                 <div className='mx-4 p-8 w-full md:w-1/2 lg:w-1/3 bg-bg3 rounded-md'>
