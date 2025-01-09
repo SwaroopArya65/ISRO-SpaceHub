@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -30,6 +31,9 @@ const Login = () => {
                                 type="button">
                                 Login
                             </button>
+                        </div>
+                        <div className='text-center font-playfair text-[17px]'>
+                            Creat New User Account <Link to="/registration" className='text-blue-500 hover:text-blue-800'>SignUp</Link>
                         </div>
                     </form>
                 </div>

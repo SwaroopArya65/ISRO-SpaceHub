@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Index from "./pages/Index";
 import Login from './pages/Login';
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
         {/* This router for user login */}
         <Route path='/login' element={<Login />} />
+        <Route path='/registration' element={<Registration />} />
 
       </Routes>
     </Router>
