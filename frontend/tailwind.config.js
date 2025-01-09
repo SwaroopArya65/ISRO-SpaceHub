@@ -18,6 +18,11 @@ export default {
       },
       colors: {
         'bg': '#4509ae',
+        'bg2': '#F6ECFF',
+        'bg3': '#f2f2ff',
+        'text-color': '#663399',
+        'text-color2': '#4609ae',
+        'text-color3': '#f2f2ff',
       },
       height: {
         'h-100': '400px'
