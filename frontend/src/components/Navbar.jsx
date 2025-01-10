@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
@@ -7,14 +7,14 @@ const Navbar = () => {
         <header className="absolute inset-x-0 top-0 z-50">
             <nav className="flex items-center justify-between p-6 lg:px-40" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <Link to="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <img
                             className="h-8 w-auto"
                             src={logo}
                             alt="Company Logo"
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex lg:hidden">
                     <button
@@ -39,11 +39,21 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    {['Home', 'Courses', 'Resources', 'All News', 'Support'].map((item) => (
-                        <a key={item} href="#" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
-                            {item}
-                        </a>
-                    ))}
+                    <Link to="/" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                        Home
+                    </Link>
+                    <Link to="/courses" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                        Courses
+                    </Link>
+                    <Link to="/resources" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                        Resources
+                    </Link>
+                    <Link to="/news" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                        All News
+                    </Link>
+                    <Link to="/support" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                        Support
+                    </Link>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Link to="/login" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
@@ -52,7 +62,7 @@ const Navbar = () => {
                 </div>
             </nav>
         </header>
-    )
-}
+    );
+};
 
 export default Navbar;
