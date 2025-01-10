@@ -20,6 +20,7 @@ const Registration = () => {
                         <li><a href="https://www.linkedin.com/in/arya-swaroop-0a313b1b2" className='font-publicSans text-text-color tracking-wide'>LinkedIn</a></li>
                         <li><a href="#" className='font-publicSans text-text-color tracking-wide'>Quick Link</a></li>
                         <li><a href="#" className='font-publicSans text-text-color tracking-wide'>Home</a></li>
+                        <Link to="/" href="#" className='font-publicSans text-text-color tracking-wide'>Home</Link>
                     </ul>
                 </div>
                 <div className='mx-4 p-8 w-full md:w-1/2 lg:w-1/3 bg-bg3 rounded-md'>
