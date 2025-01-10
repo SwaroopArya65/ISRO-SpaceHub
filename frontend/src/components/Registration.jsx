@@ -19,6 +19,7 @@ const Registration = () => {
                         <li><a href="https://github.com/SwaroopArya65" className='font-publicSans text-text-color tracking-wide'>GitHub</a></li>
                         <li><a href="https://www.linkedin.com/in/arya-swaroop-0a313b1b2" className='font-publicSans text-text-color tracking-wide'>LinkedIn</a></li>
                         <li><a href="#" className='font-publicSans text-text-color tracking-wide'>Quick Link</a></li>
+                        <li><a href="#" className='font-publicSans text-text-color tracking-wide'>Home</a></li>
                     </ul>
                 </div>
                 <div className='mx-4 p-8 w-full md:w-1/2 lg:w-1/3 bg-bg3 rounded-md'>
@@ -26,7 +27,7 @@ const Registration = () => {
                     <form>
                         <div className="mb-4">
                             <label className="block font-publicSans tracking-wide font-semibold text-text-color mb-2" for="email">
-                                Email Address
+                                Enter Email ID
                             </label>
                             <input
                                 className="border border-bg2 bg-[#E9E9FF] rounded w-full py-2 px-3 text-text-color2 leading-tight focus:outline-none focus:shadow-outline font-publicSans"
@@ -47,7 +48,7 @@ const Registration = () => {
                             <input
                                 className="border border-bg2 bg-[#E9E9FF] rounded w-full py-2 px-3 text-text-color2 mb-3 leading-tight focus:outline-none focus:shadow-outline font-publicSans"
                                 id="password" type="password" required placeholder="Enter your password" />
-                            <a className="text-text-color hover:text-gray-800 font-publicSans tracking-wide" href="#">Forgot your password?</a>
+                            {/* <a className="text-text-color hover:text-gray-800 font-publicSans tracking-wide" href="#">Forgot your password?</a> */}
                         </div>
                         <div className="mb-6">
                             <button
