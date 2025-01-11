@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Index from "./pages/Index";
 import Login from './pages/Login';
 import Registration from './components/Registration';
-import Courses from './components/Courses';
+import Courses from './pages/Courses';
 
 function App() {
   return (
