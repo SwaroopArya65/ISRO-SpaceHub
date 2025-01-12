@@ -39,24 +39,24 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <Link to="/" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/" className="text-lg tracking-wide font-publicSans text-text-color2 font-semibold hover:text-bg">
                         Home
                     </Link>
-                    <Link to="/courses" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/courses" className="text-lg tracking-wide font-publicSans text-text-color2  font-semibold hover:text-bg">
                         Courses
                     </Link>
-                    <Link to="/resources" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/resources" className="text-lg tracking-wide font-publicSans text-text-color2  font-semibold hover:text-bg">
                         Resources
                     </Link>
-                    <Link to="/news" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/news" className="text-lg tracking-wide font-publicSans text-text-color2  font-semibold hover:text-bg">
                         All News
                     </Link>
-                    <Link to="/support" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/support" className="text-lg tracking-wide font-publicSans text-text-color2  font-semibold hover:text-bg">
                         Support
                     </Link>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <Link to="/login" className="text-lg tracking-wide font-publicSans text-gray-900 hover:text-bg">
+                    <Link to="/login" className="text-lg tracking-wide font-publicSans text-text-color2  font-semibold hover:text-bg">
                         Log in <span aria-hidden="true">&rarr;</span>
                     </Link>
                 </div>
