@@ -27,6 +27,9 @@ export default {
       height: {
         'h-100': '400px'
       },
+      fontSize: {
+        'text-cxs': '18px',
+      },
     },
     screens: {
       // => @media (max-width: 1279px) { ... }
