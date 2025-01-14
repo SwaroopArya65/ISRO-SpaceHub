@@ -16,7 +16,7 @@ const Index = () => {
                 <GradientBg position="-top-40 sm:-top-80" />
                 <div className="mx-auto max-w-customeweight py-32 sm:py-48 lg:py-56">
                     <div className="sm:mb-8 sm:flex sm:justify-center mb-6">
-                        <div className="justify-center relative font-publicSans rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                        <div className="justify-center relative font-publicSans rounded-full px-3 py-1 text-sm/6 text-text-color ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             Upcoming: Space & Technology Awareness Training Programme-2025 (START-2025)
                             <a href="#" className="font-semibold text-indigo-600">
                                 <span className="absolute inset-0" aria-hidden="true"></span> Read more
@@ -25,10 +25,10 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="text-center max-w-3xl">
-                        <h1 className="text-5xl font-playfair tracking-wide text-gray-900 sm:text-7xl">
+                        <h1 className="text-5xl font-playfair tracking-wide text-text-color2 sm:text-7xl">
                             SpaceHub: Inspiring the Next Generation of Space Innovators
                         </h1>
-                        <p className="mt-8 text-lg font-publicSans tracking-wide font-boldweight text-gray-500 sm:text-xl">
+                        <p className="mt-8 text-lg font-publicSans tracking-wide font-boldweight text-text-color sm:text-xl">
                             Empowering students and entrepreneurs with interactive courses, simulations, resources, forums, and guidance to excel in space science and technology.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">

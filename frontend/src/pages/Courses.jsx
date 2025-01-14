@@ -8,8 +8,10 @@ const Courses = () => {
             <div>
                 <Navbar />
             </div>
-            <div className="relative isolate px-6 pt-24 lg:px-40 w-full bg-bg2 max-h-80 h-80">
-                <Courseslist />
+            <div className='p-6 lg:px-40'>
+                <div className='mt-20 bg-bg2'>
+                    <Courseslist />
+                </div>
             </div>
         </div>
     )
