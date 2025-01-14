@@ -15,14 +15,14 @@ const UserDepartment = () => {
             <div className="flex justify-between gap-5">
                 {/* Select User Section */}
                 <div className="flex-1">
-                    <h4 className="mb-5 font-playfair tracking-wider font-semibold text-2xl text-gray-900">
+                    <h4 className="mb-5 font-playfair tracking-wider font-bold text-2xl text-text-color2">
                         Select User
                     </h4>
                     <div className='grid grid-cols-3 gap-x-1'>
                         {[
                             { title: "Beginner", description: "Courses", image: s1 },
                             { title: "Entr", description: "Courses Cate", image: s2 },
-                            { title: "Others", description: "Courses", image: s3 },
+                            { title: "Other's", description: "Courses", image: s3 },
                         ].map((item, index) => (
                             <div
                                 key={index}
@@ -32,11 +32,11 @@ const UserDepartment = () => {
                                 <div
                                     className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-3 flex items-center justify-between duration-500 group-hover:bottom-7'>
                                     <div>
-                                        <h2 className="font-semibold">{item.title}</h2>
-                                        <p className="text-sm text-gray-700">{item.description}</p>
+                                        <h2 className="font-semibold font-playfair text-text-color2 tracking-wider">{item.title}</h2>
+                                        <p className="text-sm text-text-color font-semibold font-playfair tracking-wide">{item.description}</p>
                                     </div>
                                     <div
-                                        className="border rounded-full border-black w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                        className="border rounded-full border-white w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-text-color2 transition">
                                         <IoIosArrowForward className='w-5' />
                                     </div>
                                 </div>
@@ -47,14 +47,14 @@ const UserDepartment = () => {
 
                 {/* Scientist Types Section */}
                 <div className="flex-1">
-                    <h4 className="mb-5 font-playfair tracking-wider font-semibold text-2xl text-gray-900">
+                    <h4 className="mb-5 font-playfair tracking-wider font-bold text-2xl text-text-color2">
                         Scientist Types
                     </h4>
                     <div className='grid grid-cols-3 gap-x-1'>
                         {[
                             { title: "Aerospa. Eng.", description: "Scientists", image: sc1 },
                             { title: "CS & Eng.", description: "Scientists", image: sc2 },
-                            { title: "Others", description: "Scientists", image: sc3 },
+                            { title: "Other's", description: "Scientists", image: sc3 },
                         ].map((item, index) => (
                             <div
                                 key={index}
@@ -64,11 +64,11 @@ const UserDepartment = () => {
                                 <div
                                     className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-3 flex items-center justify-between duration-500 group-hover:bottom-7'>
                                     <div>
-                                        <h2 className="font-semibold">{item.title}</h2>
-                                        <p className="text-sm text-gray-700">{item.description}</p>
+                                        <h2 className="font-semibold font-playfair text-text-color2 tracking-wider">{item.title}</h2>
+                                        <p className="text-sm text-text-color font-semibold font-playfair tracking-wide">{item.description}</p>
                                     </div>
                                     <div
-                                        className="border rounded-full border-black w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                        className="border rounded-full border-white w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-text-color2 transition">
                                         <IoIosArrowForward className='w-5' />
                                     </div>
                                 </div>
