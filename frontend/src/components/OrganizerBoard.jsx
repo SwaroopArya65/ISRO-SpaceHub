@@ -32,11 +32,11 @@ const OrganizerBoard = () => {
                                 <div
                                     className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-3 flex items-center justify-between duration-500 group-hover:bottom-7'>
                                     <div>
-                                        <h2 className="font-semibold">{item.title}</h2>
-                                        <p className="text-sm text-gray-700">{item.description}</p>
+                                        <h2 className="font-bold font-playfair text-text-color2 tracking-wider">{item.title}</h2>
+                                        <p className="text-sm text-text-color font-semibold font-playfair tracking-wide">{item.description}</p>
                                     </div>
                                     <div
-                                        className="border rounded-full border-black w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                        className="border rounded-full border-white w-4 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-text-color2 transition">
                                         <IoIosArrowForward className='w-5' />
                                     </div>
                                 </div>
